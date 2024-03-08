@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC - HTML_JS</title>
+    <link rel="stylesheet" href="./mais.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário teste</h1>
+        <div class="form">
+            <form id="form" onsubmit="return validaFormulario()">
+                
+                <label for="campoA">Campo A</label>
+                <input id="campoA" name="campoA" type="number" placeholder="Digite um número" required> 
+                
+                <label for="campoB">Campo B</label>
+                <input id="campoB" name="campoB" type="number" placeholder="Digite outro número" required>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

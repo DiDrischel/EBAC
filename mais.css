@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    margin: 5px;
+}
+
+.container {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form input,
+form button {
+    display: block;
+    margin-bottom: 16px;
+    padding: 5px 15px;
+}
+
+button {
+    padding: 2px 15px;
+    cursor: pointer;
+}
